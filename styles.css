@@ -1,0 +1,33 @@
+html, body, .container {
+    height: 100%;
+    margin: 0;
+}
+
+body{
+  background: -webkit-linear-gradient(bottom right, pink, blue);
+  background: -o-linear-gradient(bottom right, pink, blue);
+  background: linear-gradient(to top left, pink, blue);
+  text-align: center;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+h1{
+  font-size: 3em;
+  margin: 0;
+  padding: 100px 0 35px;
+}
+.search-functions{
+  padding: 15px;
+}
+.results{
+  padding: 50px;
+}
+p{
+  padding-top: 2px;
+}
+.random:hover{
+  box-shadow: 0 0 5px black;
+}
+.random{
+  display: inline;
+}
